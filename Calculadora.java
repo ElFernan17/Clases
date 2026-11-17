@@ -10,10 +10,10 @@ public class Calculadora {
 		return resultado;
 	}
 	
-	public int restar(int a, int b) {
-		int resultado;
+	public double restar(double a, double b) {
+		double resultado;
 		
-		resultado = a- b;
+		resultado = a - b;
 		
 		return resultado;
 	}
@@ -44,6 +44,15 @@ public class Calculadora {
 				
 		return promedio;
 	}
+	
+	public double calcularDescuento(double precio, double descuento) {
+		double retorno;
+		
+		retorno = precio - (precio * descuento/100);
+		
+		return retorno;
+	}
+	
 	
 	public void mostrarResultados() {
 		System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");

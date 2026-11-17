@@ -7,51 +7,56 @@ public class VehiculoTest {
 		Vehiculo v;
 		v = new Vehiculo();
 		
-		System.out.println("Hola mundo");
+		System.out.println(".......Vehiculo Creado...........");
 		
-		System.out.println("Año: " + v.año);
+		System.out.println("Año: " + v.getAño());
 		
-		System.out.println("Marca: " + v.marca);
+		System.out.println("Marca: " + v.getMarca());
 		
-		System.out.println("Modelo: " + v.modelo);
+		System.out.println("Modelo: " + v.getModelo());
+		
+		
 		
 		System.out.println(".......Vehiculo 1 Valores asignados...........");
 		
+		v.setAño("2013");
+		v.setMarca("chevrolet");
+		v.setModelo("spark");
 		
-		v.año = "2013";
-		v.marca = "chevrolet";
-		v.modelo = "spark";
+		System.out.println("Año: " + v.getAño());
+		
+		System.out.println("Marca: " + v.getMarca());
+		
+		System.out.println("Modelo: " + v.getModelo());
 		
 		
-		System.out.println("Año: " + v.año);
-		
-		System.out.println("Marca: " + v.marca);
-		
-		System.out.println("Modelo: " + v.modelo);
-
 		
 		System.out.println(".......Vehiculo 2 Creado...........");
 		
 		Vehiculo v2 = new Vehiculo();
 		
-		System.out.println("Año: " + v2.año);
+		System.out.println("Año: " + v2.getAño());
 		
-		System.out.println("Marca: " + v2.marca);
+		System.out.println("Marca: " + v2.getMarca());
 		
-		System.out.println("Modelo: " + v2.modelo);
-		
-		v2.año = "2026";
-		v2.marca = "mazda";
-		v2.modelo = "3";
-		
-		System.out.println(".......Vehiculo 2 Valores asignado...........");
+		System.out.println("Modelo: " + v2.getModelo());
 
 		
-		System.out.println("Año: " + v2.año);
 		
-		System.out.println("Marca: " + v2.marca);
 		
-		System.out.println("Modelo: " + v2.modelo);
+		System.out.println(".......Vehiculo 2 Valores asignado...........");
+		
+		v2.setAño("2026");
+		v2.setMarca("mazda");
+		v2.setModelo("3");
+
+		System.out.println("Año: " + v2.getAño());
+		
+		System.out.println("Marca: " + v2.getMarca());
+		
+		System.out.println("Modelo: " + v2.getModelo());
+		
+		
 	}
 
 }

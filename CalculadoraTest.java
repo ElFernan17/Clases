@@ -12,7 +12,7 @@ public class CalculadoraTest {
 		
 		System.out.println("Resultado suma = " + r1);
 		
-		int r2;
+		double r2;
 			
 		r2 = c1.restar(9, 6);
 		
@@ -38,8 +38,15 @@ public class CalculadoraTest {
 		
 		c1.mostrarResultados();
 		
+		Calculadora c2 = new Calculadora();
 		
+		double r6 = c2.restar(100.5, 40.5);
+		
+		System.out.println("Resultado resta = " + r6);
 
+		double r7 = c2.calcularDescuento(200.0, 15.0);
+		
+		System.out.println("Resultado Descuento = " + r7);
 	}
 
 }
