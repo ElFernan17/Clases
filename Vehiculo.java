@@ -7,6 +7,14 @@ public class Vehiculo {
 	private String año;
 	private double valor;
 	
+	public Vehiculo(String año, String marca, String modelo) {
+		
+		this.año = año;
+		this.marca = marca;
+		this.modelo = modelo;
+		
+	}
+	
 	
 	public String getMarca() {
 		return marca;
