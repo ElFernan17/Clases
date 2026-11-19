@@ -5,9 +5,7 @@ public class CuadradoTest {
 	public static void main(String[] args) {
 		
 		
-		Cuadrado c1 = new Cuadrado();
-		
-		c1.setLado(4);
+		Cuadrado c1 = new Cuadrado(4);
 		
 		double resultado = c1.calcularArea();
 		
@@ -19,9 +17,7 @@ public class CuadradoTest {
 		
 		
 		
-		Cuadrado c2 = new Cuadrado();
-		
-		c2.setLado(3);
+		Cuadrado c2 = new Cuadrado(3);
 		
 		double resultado2 = c2.calcularArea();
 		
@@ -33,9 +29,7 @@ public class CuadradoTest {
 		
 		
 		
-		Cuadrado c3 = new Cuadrado();
-		
-		c3.setLado(8);
+		Cuadrado c3 = new Cuadrado(8);
 		
 		double resultado3 = c3.calcularArea();
 		
