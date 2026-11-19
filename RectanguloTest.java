@@ -3,11 +3,8 @@ package home.krakedev;
 public class RectanguloTest {
 
 	public static void main(String[] args) {
-		Rectangulo r1 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(4, 5);
 
-		r1.setAltura(5);
-		r1.setBase(4);
-		
 		int resultado = r1.calcularArea();
 		
 		double resultadoPerimetro = r1.calcularPerimetro();
@@ -18,11 +15,7 @@ public class RectanguloTest {
 		
 		
 		
-		Rectangulo r2 = new Rectangulo();
-		
-		r2.setAltura(8);
-		r2.setBase(2);
-		
+		Rectangulo r2 = new Rectangulo(2, 8);
 		
 		int resultado2 = r2.calcularArea();
 		
